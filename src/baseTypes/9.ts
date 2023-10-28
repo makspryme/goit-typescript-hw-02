@@ -8,8 +8,8 @@ type Page = {
   accounts: string[];
   status: string;
   details?: {
-    createAt: {};
-    updateAt: {};  //незнаю як правильно
+    createAt: Date;
+    updateAt: Date; 
   };
 };
 
